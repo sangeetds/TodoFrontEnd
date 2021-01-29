@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background-image: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.back {
+    background: white;
+}
+
+.btn {
+    display: inline-block;
+    background: '#444';
+    color: "#ff0000";
+    padding: 7px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.btn:hover {
+    background: '#7faf93';
+}
